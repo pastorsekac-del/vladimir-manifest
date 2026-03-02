@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Fortress | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='none' stroke='%23fbbf24' stroke-width='4'/><circle cx='50' cy='50' r='12' fill='%23fbbf24'/></svg>">
+</head>
+<body>
+    <nav class="container">
+        <div class="logo">Digital Fortress</div>
+        <div style="opacity: 0.5; font-size: 0.8rem;">2026 СИНХРОНИЗАЦИЯ</div>
+    </nav>
+
+    <header class="hero container">
+        <h1>Welcome to My Universe</h1>
+        <p style="opacity: 0.6;">Система визуализации, созданная для вечности.</p>
+    </header>
+
+    <main class="container">
+        <div class="project-grid">
+            <div class="project-card">
+                <div style="color: var(--accent); font-size: 0.7rem; font-weight: bold; margin-bottom: 1rem;">ACTIVE PROJECT</div>
+                <h3>Манифест: Слава Владимира</h3>
+                <p style="opacity: 0.7; line-height: 1.6;">Интерактивная система глобальной ротации с процедурным звуком и адаптивной атмосферой.</p>
+                <a href="manifest.html" class="btn">Запустить Систему</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
